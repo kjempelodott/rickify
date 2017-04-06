@@ -34,7 +34,7 @@ arpspoof -t [target ip] [gateway ip] # e.g. -t 192.168.1.101 192.168.1.1
 
 ## You wouldn't get this from any other guy
 
-Get a copy of *Never Gonna Give You Up* in Ogg-format. You probably have to change the filename in line 3 in *rickroll.py*. Setup a transparent proxy on port 8080:
+Get a copy of *Never Gonna Give You Up* in Ogg-format. You probably have to change the filename in line 5 in *rickroll.py*. Setup a transparent proxy on port 8080:
 
 ```
 mitmproxy -T -p 8080 -s rickroll.py
